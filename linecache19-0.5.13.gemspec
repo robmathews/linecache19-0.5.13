@@ -2,7 +2,7 @@ $LOAD_PATH.unshift 'lib'
 
 Gem::Specification.new do |s|
   s.name              = "linecache19"
-  s.version           = 0.5.13
+  s.version           = "0.5.13"
   s.date              = Time.now.strftime('%Y-%m-%d')
   s.summary           = "Do no use"
   s.homepage          = "http://github.com/robmathews/linecache19-0.5.13"
