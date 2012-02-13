@@ -16,5 +16,5 @@ Gem::Specification.new do |s|
   s.files            += Dir.glob("test/**/*")
 #  s.executables       = %w( #{name} )
   s.description       = "Do not use"
-  s.extensions << "ext/ruby_debug/extconf.rb"
+  s.required_ruby_version = '>= 1.9.3'
 end
